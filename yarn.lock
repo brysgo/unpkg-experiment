@@ -3546,6 +3546,15 @@ duplexify@^3.4.2, duplexify@^3.6.0:
     readable-stream "^2.0.0"
     stream-shift "^1.0.0"
 
+dynamic-cdn-webpack-plugin@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/dynamic-cdn-webpack-plugin/-/dynamic-cdn-webpack-plugin-5.0.0.tgz#0e327299528fb9c2e6f709eb0046e6a554161aff"
+  integrity sha512-VxVHpGusEuqbnbB/r3FFUAb2kT0K6B5ZGK9FzXVxdx2f2X3RpTMKfMjehe+vTY6PqnlCvcrUekDsuYfnubs2hA==
+  dependencies:
+    html-webpack-include-assets-plugin "^1.0.4"
+    read-pkg-up "^4.0.0"
+    resolve-pkg "^1.0.0"
+
 ecc-jsbn@~0.1.1:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz#3a83a904e54353287874c564b7549386849a98c9"
@@ -4759,6 +4768,15 @@ html-minifier-terser@^5.0.1:
     param-case "^2.1.1"
     relateurl "^0.2.7"
     terser "^4.3.9"
+
+html-webpack-include-assets-plugin@^1.0.4:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/html-webpack-include-assets-plugin/-/html-webpack-include-assets-plugin-1.0.10.tgz#11a7bd7d2c5d58d955051bb17f6f04f7f84d7569"
+  integrity sha512-F+VqD4Vt5zxqzYikT7+B/oZOHCi3xvBy5NaE8AtZGRB840mZ4+cti2p5z0PwXTs3pQShO3MEuhG+vakk0XtTig==
+  dependencies:
+    glob "^7.1.3"
+    minimatch "^3.0.4"
+    slash "^2.0.0"
 
 html-webpack-plugin@4.0.0-beta.11:
   version "4.0.0-beta.11"
@@ -6505,6 +6523,13 @@ mkdirp@0.5.1, mkdirp@^0.5.1, mkdirp@~0.5.1:
   dependencies:
     minimist "0.0.8"
 
+module-to-cdn@^3.1.5:
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/module-to-cdn/-/module-to-cdn-3.1.5.tgz#f3e518e881e41841462f709e40e6d80805bddedd"
+  integrity sha512-4gWp4NXTzJ+zjHA8aVjexMNZ83cfDCb6OWD3XDRsfXJtXDPTibgB4gYZbROB6kDPVElwZmCp4TnLY6pFWk4K3A==
+  dependencies:
+    semver "^6.0.0"
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -8204,6 +8229,13 @@ react-app-polyfill@^1.0.6:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
+react-app-rewired@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/react-app-rewired/-/react-app-rewired-2.1.5.tgz#592ec2eae5c3c5cd96c80930b5dc3f6c34da1dc6"
+  integrity sha512-Gr8KfCeL9/PTQs8Vvxc7v8wQ9vCFMnYPhcAkrMlzkLiMFXS+BgSwm11MoERjZm7dpA2WjTi+Pvbu/w7rujAV+A==
+  dependencies:
+    semver "^5.6.0"
+
 react-dev-utils@^10.2.0:
   version "10.2.0"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-10.2.0.tgz#b11cc48aa2be2502fb3c27a50d1dfa95cfa9dfe0"
@@ -8601,6 +8633,11 @@ resolve-cwd@^2.0.0:
   dependencies:
     resolve-from "^3.0.0"
 
+resolve-from@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-2.0.0.tgz#9480ab20e94ffa1d9e80a804c7ea147611966b57"
+  integrity sha1-lICrIOlP+h2egKgEx+oUdhGWa1c=
+
 resolve-from@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-3.0.0.tgz#b22c7af7d9d6881bc8b6e653335eebcb0a188748"
@@ -8610,6 +8647,13 @@ resolve-from@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
   integrity sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==
+
+resolve-pkg@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/resolve-pkg/-/resolve-pkg-1.0.0.tgz#e19a15e78aca2e124461dc92b2e3943ef93494d9"
+  integrity sha1-4ZoV54rKLhJEYdySsuOUPvk0lNk=
+  dependencies:
+    resolve-from "^2.0.0"
 
 resolve-url-loader@3.1.1:
   version "3.1.1"
