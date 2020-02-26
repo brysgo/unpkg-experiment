@@ -1,3 +1,9 @@
+# CRA + react-app-rewired + DynamicCdnWebpackPlugin
+
+This is a simple demonstration of react-app-rewired with the cdn webpack plugin.
+
+# And here is the normal CRA readme
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
